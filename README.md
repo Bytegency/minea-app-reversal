@@ -15,7 +15,7 @@ The repository is organized into the following directories:
 
 ## Prerequisites
 
-Make sure you have the browser open with minea website. This project is made to directly access the JWT directly to avoid hacking into AWS
+Make sure you have the browser open with minea website. This project is made to access the JWT directly to avoid hacking into AWS
 
 ## Installation
 
