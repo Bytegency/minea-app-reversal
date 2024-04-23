@@ -16,8 +16,8 @@
     "planPeriodStart": "2024-04-19T22:22:40.115Z",
     "planPeriodEnd": null,
     "credits": 853640,
-    "totalCredits": 8000000, //This is the refill credits based on the plan you've got. This can be changed
-    "creditsRefillAt": "2024-04-19T22:22:40.115Z", //If you got a plan you can change this date to Date.now() + the next 3 minutes. It will give you the totalCredits you've requested
+    "totalCredits": 8000000,
+    "creditsRefillAt": "2024-04-19T22:22:40.115Z", //If you got a plan you can change this date to Date.now() + the next 3 minutes. It will give you the credits you've requested based on your plan
     "stripeCustomerId": "xxx",
     "stripeOrigin": "minea",
     "isAffiliate": null,
@@ -38,8 +38,8 @@
     "createdAt": "2024-04-19T14:06:16.398Z",
     "updatedAt": "2024-04-19T22:22:36.332Z",
     "ipAtSignUp": "MARS", //Also why did you save my IP on a userobject... 
-    //If Only you could hack into JWT and actually do get GET_PROFILE request to another user their id. 
-    //Not to mention, but I've got all userIDs of influencers including. It's litterally in the client code... Not that smart.....
+    //If Only you could hack into JWT and actually do get GET_PROFILE request to another user their UID. 
+    //Not to mention, but I've got all UIDs of influencers including. It's litterally in the client code... Not that smart.....
 
     "__typename": "User"
 }
